@@ -1,0 +1,13 @@
+name = "codexlock-admin"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "codexlock-keys"
+database_id = "REPLACE_WITH_DATABASE_ID"
+migrations_dir = "migrations"
